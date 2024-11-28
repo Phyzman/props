@@ -1,6 +1,6 @@
 import React from "react";
 import "./Classwork.css";
-import Modal from "../../modal/Modal";
+// import Modal from "../../modal/Modal";
 const Classwork = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const Classwork = () => {
             </div>
           </nav>
         </div>
-        <Modal />
+        {/* <Modal /> */}
       </>
     </div>
   );
