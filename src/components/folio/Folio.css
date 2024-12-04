@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    /* max-width: 800px; */
+    background-color: gainsboro;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+   float: right;
+}
+ small{
+    padding: 10px;
+}
+
+.middle{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.set{
+    padding-top: 15px;
+   
+}
+
+.click{
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+
+.mother{
+    display: flex;
+}
+
+.outside{
+    width: 400px;
+    height: 15px;
+    background-color: skyblue;
+}
+
+.inside{
+    width: 400px;
+    height: 15px;
+    background-color: lawngreen;
+
+}
