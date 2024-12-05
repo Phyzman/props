@@ -1,6 +1,15 @@
-.navContainer {
+.navbar {
     text-align: center;
-    background-color: bisque;
+    background-color: brown;
+    color: wheat;
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: wheat;
+    padding: 0 10px;
 }
 
 #words {

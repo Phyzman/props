@@ -1,31 +1,23 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-import Classwork from "./components/classwork/Classwork";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 import Footer from "./components/footer/Footer";
-import Project from "./components/project/Project";
-import Card from "./components/card/Card";
-import Skills from "./components/Skills/Skills";
-import Folio from "./components/folio/Folio";
-import Practice from "./components/hooks/Practice";
-import FectchData from "./components/hooks/FectchData";
-import FetchWithAxios from "./components/hooks/FetchWithAxios";
+import Product from "./pages/product/Product";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Welcome to react class.</h1>
+      <BrowserRouter>
         <Navbar />
-        <Classwork />
-        <Project />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Product />}/>
+        </Routes>
         <Footer />
-        <Card />
-        <Skills />
-        <Practice />
-        {/* <FectchData /> */}
-        <FetchWithAxios />
-        {/* <Folio/> */}
-      </div>
+      </BrowserRouter>
     </>
   );
 }

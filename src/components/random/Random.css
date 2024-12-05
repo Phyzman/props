@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mother{
+     margin: "20px";
+     overflow-x: auto;
+}
+
+
+.list{
+     width: "100%";
+     border-collapse: "collapse"; 
+}
+
+.photos{
+    border-radius: "50%";
+}
